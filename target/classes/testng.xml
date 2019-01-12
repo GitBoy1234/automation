@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="testng sample">
+
+    <listeners>
+
+        <listener class-name="com.qa.gbpp.reports.TestNGListener"/>
+
+    </listeners>
+
+    <test name="sample" preserve-order="true">
+
+        <classes>
+
+            <class name="com.qa.gbpp.testcases.Test1"/>
+
+        </classes>
+
+
+
+
+    </test>
+
+
+
+
+</suite>

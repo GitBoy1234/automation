@@ -1,0 +1,5 @@
+com\qa\gbpp\base\TestBase.class
+com\qa\gbpp\utils\Utilities.class
+com\qa\gbpp\pages\RegisterNewUser.class
+com\qa\gbpp\pages\CheckLinks.class
+com\qa\gbpp\testdata\TestData.class
