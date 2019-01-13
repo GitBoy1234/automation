@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.567 sec <<< FAILURE!
-checkLinks(com.qa.gbpp.testcases.Test1)  Time elapsed: 12.744 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.843 sec <<< FAILURE!
+checkLinks(com.qa.gbpp.testcases.Test1)  Time elapsed: 2.973 sec  <<< FAILURE!
 java.lang.ClassCastException: sun.net.www.protocol.mailto.MailToURLConnection cannot be cast to java.net.HttpURLConnection
 	at com.qa.gbpp.pages.CheckLinks.VerifyLinks(CheckLinks.java:23)
 	at com.qa.gbpp.testcases.Test1.checkLinks(Test1.java:48)

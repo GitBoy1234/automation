@@ -11,7 +11,7 @@ public class ExtentManager {
 
     public static ExtentReports creatInstance(){
 
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\\\Report\\\\TestResults.html");
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("C:\\gbpp\\target\\surefire-reports\\TestResults.html");
         htmlReporter.config().setTestViewChartLocation(ChartLocation.BOTTOM);
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTheme(Theme.STANDARD);

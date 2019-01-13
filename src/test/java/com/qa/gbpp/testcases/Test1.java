@@ -82,7 +82,7 @@ public class Test1 extends TestBase {
 
                    softAssert.assertAll();
 
-                   driver.switchTo().window(parentTab);
+                  // driver.switchTo().window(parentTab);
 
 
                }

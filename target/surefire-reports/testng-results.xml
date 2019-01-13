@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="33954" started-at="2019-01-12T19:52:30Z" finished-at="2019-01-12T19:53:04Z">
+  <suite name="Command line suite" duration-ms="14317" started-at="2019-01-12T21:11:14Z" finished-at="2019-01-12T21:11:28Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="33954" started-at="2019-01-12T19:52:30Z" finished-at="2019-01-12T19:53:04Z">
+    <test name="Command line test" duration-ms="14317" started-at="2019-01-12T21:11:14Z" finished-at="2019-01-12T21:11:28Z">
       <class name="com.qa.gbpp.testcases.Test1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.gbpp.testcases.Test1@62043840]" name="setUp" is-config="true" duration-ms="11848" started-at="2019-01-12T19:52:30Z" finished-at="2019-01-12T19:52:42Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.gbpp.testcases.Test1@62043840]" name="setUp" is-config="true" duration-ms="8929" started-at="2019-01-12T21:11:14Z" finished-at="2019-01-12T21:11:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="checkLinks()[pri:1, instance:com.qa.gbpp.testcases.Test1@62043840]" name="checkLinks" duration-ms="12734" started-at="2019-01-12T19:52:42Z" finished-at="2019-01-12T19:52:54Z">
+        <test-method status="FAIL" signature="checkLinks()[pri:1, instance:com.qa.gbpp.testcases.Test1@62043840]" name="checkLinks" duration-ms="2967" started-at="2019-01-12T21:11:23Z" finished-at="2019-01-12T21:11:26Z">
           <exception class="java.lang.ClassCastException">
             <message>
               <![CDATA[sun.net.www.protocol.mailto.MailToURLConnection cannot be cast to java.net.HttpURLConnection]]>
@@ -61,11 +61,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLinks -->
-        <test-method status="PASS" signature="switchTabs()[pri:2, instance:com.qa.gbpp.testcases.Test1@62043840]" name="switchTabs" duration-ms="8566" started-at="2019-01-12T19:52:54Z" finished-at="2019-01-12T19:53:03Z">
+        <test-method status="PASS" signature="switchTabs()[pri:2, instance:com.qa.gbpp.testcases.Test1@62043840]" name="switchTabs" duration-ms="1718" started-at="2019-01-12T21:11:26Z" finished-at="2019-01-12T21:11:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchTabs -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.gbpp.testcases.Test1@62043840]" name="tearDown" is-config="true" duration-ms="777" started-at="2019-01-12T19:53:03Z" finished-at="2019-01-12T19:53:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.gbpp.testcases.Test1@62043840]" name="tearDown" is-config="true" duration-ms="674" started-at="2019-01-12T21:11:28Z" finished-at="2019-01-12T21:11:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
