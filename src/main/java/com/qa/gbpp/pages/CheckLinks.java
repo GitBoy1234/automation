@@ -2,6 +2,7 @@ package com.qa.gbpp.pages;
 
 import com.qa.gbpp.base.TestBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
 
@@ -23,6 +24,8 @@ public class CheckLinks extends TestBase {
             HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
             httpURLConnect.setConnectTimeout(3000);
             httpURLConnect.connect();
+
+
 
             if (httpURLConnect.getResponseCode() == 200) {
                 System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage());

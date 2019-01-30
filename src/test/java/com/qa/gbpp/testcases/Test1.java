@@ -1,6 +1,7 @@
 package com.qa.gbpp.testcases;
 
 import com.qa.gbpp.base.TestBase;
+import com.qa.gbpp.pages.iFrames;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterTest;
@@ -18,7 +19,7 @@ public class Test1 extends TestBase {
     SoftAssert softAssert;
 
     CheckLinks cl;
-
+    iFrames ifs ;
 
 
     public Test1() {
@@ -30,12 +31,13 @@ public class Test1 extends TestBase {
     public void setUp() {
         initialize();
         cl = new CheckLinks();
+        ifs = new iFrames();
 
 
     }
 
-    @Test (priority =1)
-    public void checkLinks() {
+    @Test (enabled =false)
+     void checkLinks() {
 
         List<WebElement> link = driver.findElements(By.tagName("a"));
 
@@ -49,8 +51,17 @@ public class Test1 extends TestBase {
 
 
         }
+
+
     }
-        @Test(priority =2)
+    @Test(priority = 1)
+     void testIframes(){
+
+        ifs.getUrl();
+
+
+    }
+        @Test(enabled =false)
         public void switchTabs(){
 
              softAssert = new SoftAssert();
