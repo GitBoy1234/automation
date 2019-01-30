@@ -2,12 +2,11 @@ package com.qa.gbpp.testcases;
 
 import com.qa.gbpp.base.TestBase;
 import com.qa.gbpp.pages.iFrames;
+import org.apache.commons.collections4.bag.SynchronizedSortedBag;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.*;
 import com.qa.gbpp.pages.CheckLinks;
 import org.testng.asserts.SoftAssert;
 
@@ -36,7 +35,7 @@ public class Test1 extends TestBase {
 
     }
 
-    @Test (enabled =false)
+    @Test (enabled =true)
      void checkLinks() {
 
         List<WebElement> link = driver.findElements(By.tagName("a"));
@@ -54,13 +53,34 @@ public class Test1 extends TestBase {
 
 
     }
-    @Test(priority = 1)
-     void testIframes(){
+    @Test(priority = 1,enabled = false)
+    @Parameters("Myname")
+
+     void testIframes(String Myname){
+        System.out.println(Myname);
 
         ifs.getUrl();
+        Assert.assertTrue(false);
 
 
     }
+
+    @Test
+    public void testname(){
+
+        driver.findElement(By.xpath("//a[contains(text(),'Lodge a Complaint')]")).click();
+
+
+
+    }
+
+    @Test(dependsOnMethods = {"testname"})
+    public void testClick(){
+
+        driver.findElement(By.xpath("//a[contains(text(),'click here')]"));
+
+    }
+
         @Test(enabled =false)
         public void switchTabs(){
 
@@ -124,7 +144,7 @@ public class Test1 extends TestBase {
     @AfterTest
     public void tearDown(){
 
-        driver.quit();
+     //   driver.quit();
 
 
 

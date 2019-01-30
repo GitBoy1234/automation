@@ -5,15 +5,38 @@
 
     <listeners>
 
+
+
         <listener class-name="com.qa.gbpp.reports.TestNGListener"/>
+        <listener class-name="com.qa.gbpp.reports.Transformer"/>
 
     </listeners>
 
+
+
     <test name="sample" preserve-order="true">
+
+        <parameter name = "username" value="manisha"/>
+        <parameter name = "initials" value="m"/>
+        <parameter name = "name" value="manisha"/>
+        <parameter name = "surname" value="coop"/>
+        <parameter name = "idNumber" value="8409295111087"/>
+
+
+        <groups>
+            <run>
+                <include name = "loginIntoApp" />
+                <include name = "Checkbox" />
+            </run>
+        </groups>
+
+
 
         <classes>
 
-            <class name="com.qa.gbpp.testcases.Test1"/>
+            <class name="com.qa.gbpp.testcases.Test2"/>
+
+
 
         </classes>
 

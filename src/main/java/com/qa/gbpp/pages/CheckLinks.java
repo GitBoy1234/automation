@@ -22,7 +22,7 @@ public class CheckLinks extends TestBase {
             URL url = new URL(linkUrl);
 
             HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
-            httpURLConnect.setConnectTimeout(3000);
+            httpURLConnect.setConnectTimeout(10000);
             httpURLConnect.connect();
 
 
