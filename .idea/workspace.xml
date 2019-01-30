@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be0c0e5-5480-43f9-b8ad-5bf1301a30f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/RetryAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/Transformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/reports/RetryAnalyzer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/reports/Transformer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/testcases/Test2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/testcases/test3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/testcases/test4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/pages/CheckLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/pages/CheckLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/gbpp/pages/CheckLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/gbpp/pages/CheckLinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/testcases/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/testcases/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/RetryAnalyzer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/RetryAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="27" />
+            <state relative-caret-position="202">
+              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/gbpp/testdata/TestData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/ExtentManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/gbpp/pages/iFrames.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/RetryAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/gbpp/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/Transformer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
@@ -190,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/test4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/gbpp/pages/CheckLinks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/gbpp/config/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/RetryAnalyzer.java" />
       </list>
     </option>
   </component>
@@ -204,7 +185,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="168" />
     <option name="y" value="-776" />
     <option name="width" value="1040" />
@@ -349,7 +330,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548880477123" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548883558604" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
@@ -503,6 +484,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="168" y="-776" width="1040" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19795918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -954,8 +936,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/RetryAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" />
+        <state relative-caret-position="202">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -16,6 +16,17 @@ public class RetryAnalyzer extends TestBase implements IRetryAnalyzer {
     public boolean retry(ITestResult iTestResult) {
 
 
+
+        
+
+
+
+
+
+
+
+
+
         if (counter < retrylimit){
             counter++;
             return  true;
