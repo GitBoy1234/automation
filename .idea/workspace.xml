@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be0c0e5-5480-43f9-b8ad-5bf1301a30f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/qa/gbpp/pages/iFrames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/RetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/reports/Transformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/reports/RetryAnalyzer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/reports/Transformer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/testcases/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/testcases/test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qa/gbpp/testcases/test4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/pages/CheckLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/pages/CheckLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/pages/iFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/gbpp/pages/iFrames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/gbpp/testcases/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qa/gbpp/pages/CheckLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/gbpp/pages/CheckLinks.class" afterDir="false" />
@@ -195,7 +204,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="168" />
     <option name="y" value="-776" />
     <option name="width" value="1040" />
@@ -340,7 +349,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548872738625" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548878391409" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
@@ -493,8 +502,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="-776" width="1040" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="168" y="-776" width="1040" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19795918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
